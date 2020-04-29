@@ -1,0 +1,16 @@
+* {
+    outline: 1px solid pink;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    margin: 20px;
+    display: block;
+}
+
+.ninja,
+.cat {
+    height: 500px;
+    width: 200px;
+}

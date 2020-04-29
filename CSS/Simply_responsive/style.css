@@ -1,0 +1,42 @@
+*{
+  /* outline: 1px solid pink; */
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing includes the padding and border when calculating width */
+  box-sizing: border-box;
+}
+.container h2 {
+  background-color: grey;
+  margin: 10px;
+  height: auto;
+
+}
+.container p {
+  background-color: lightgray;
+  margin: 10px;
+  height: auto;
+}
+.screen-size {
+  background-color: yellow;
+  margin: 10px;
+  height: 50px;
+}
+
+@media screen and (max-width: 480px){
+  .med, 
+  .lg {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px){
+  .lg,
+  .sm {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px){
+  .sm,
+  .med {
+    display: none;
+  }
+}

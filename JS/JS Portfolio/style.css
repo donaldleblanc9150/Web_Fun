@@ -1,0 +1,131 @@
+*{
+    /* outline: 1px solid pink; */
+    /*thank you Vison for the help ..I'm hoping this stuff is sinking in!*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    min-height:450px;
+    width:950px;
+    background-color:rgb(111,89,99);
+    margin: auto;
+}
+
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background-color:rgb(246,246,246);
+}
+.header-top h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.header-top h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.header-top h1, 
+.header-top h3, 
+.about, 
+.upper-main img,
+.info-col,
+.socials p,
+.socials img { 
+    display:inline-block;    
+}
+
+.main-content {
+    padding: 20px;
+    background-image: radial-gradient(rgb(35,17,23), rgb(111,89,99), rgb(35,17,23));
+    
+}
+
+.upper-main img{
+    width: 400px;
+    border: solid silver 5px;
+}
+.upper-main, 
+.bottom-main {
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width:465px;
+    vertical-align: top;
+}
+.about h2,
+.uppermsg h3,
+.tech h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(rgb(191,191,191),rgb(106,106,106),rgb(187,177,177));
+    color:white;
+    padding: 10px;
+}
+.bottom-main {
+    margin-top: 15px;
+}
+.content {
+    background-color: rgb(237,230,236);
+    padding: 10px; /*21px*/
+}
+.content p{
+    margin-bottom: 30px;
+
+}
+.info-col {
+    width: 280px;
+}
+.uppermsg img{ 
+    width: 280px; 
+    
+} 
+.uppermsg {
+    height: 410px;
+}
+.uppermsg,
+.tech {
+    background-color: rgb(237,230,236);
+}
+.uppermsg p {
+    padding: 15px;
+}
+.tech img {
+    width: 40px;
+}
+.logos {
+  padding: 10px;
+}
+.tech button {
+    border: black solid 1px;
+    color: white;
+    background-color:rgb(64,125,97);
+    border-radius: 5px;
+    padding: 4px;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+}
+.tech{
+    padding-bottom: 15px;
+}
+.socials img {
+    width: 20px;
+    vertical-align: middle;
+}
+.contact {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(248,248,248);
+}
+.socials p {
+    text-decoration: underline;
+    padding: 10px;
+}

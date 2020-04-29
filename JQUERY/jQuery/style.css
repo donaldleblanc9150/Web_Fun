@@ -1,0 +1,48 @@
+* { outline: 1px solid pink;
+    margin: 0px;
+    padding: 0px;
+
+}
+.wrapper {
+    /* margin: auto;
+    width: auto; */
+    /* text-align: center; */
+}
+.click, .slideToggle, .append{
+    /* height: 300px;
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+
+}
+.click button p,
+.click h1,
+.slideToggle h1, button, p, 
+.append h1, button, p{
+    margin: 9px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.click h1,
+.slideToggle h1,
+.append h1{
+    text-align: center;
+}
+.click p,
+.slideToggle p,
+.append p {
+    text-align: center;
+}
+.slideToggle img{
+    height: 100px;
+    width: 100px
+}
+.click button,
+.slideToggle button,
+.append button {
+    box-shadow: 5px 5px;
+    height: 25px;
+    width: 75px;
+}
+.click button,
+.click p {
+    justify-content: space-between;
+}

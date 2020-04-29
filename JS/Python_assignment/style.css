@@ -1,0 +1,258 @@
+*{
+  /* outline: 1px solid red; */
+  /* box-sizing: border-box; */
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 970px;
+  margin: auto;
+  background-color: rgb(35,79,118);
+}
+.top-header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 970px;;
+  height: 100px;
+}
+.right {
+  margin: 20px;
+  height: 65px;
+  width: 250px;
+}
+.top-header img{
+  width: 400px;
+  height: 100px;
+  background-color: rgb(35,79,118);
+}
+.rs-top {
+  display: inline-flex;
+  height: 15px;
+  width: 155px;
+  text-align: right;
+}
+.rs-top p{
+  width: 60px;
+  height: 25px;
+  font-size: small;
+  font-weight: lighter;
+  font-family: arial;
+  color: white;
+  text-align: center;
+  display: inline-flex
+}
+.rs-top h5 {
+  width: 45px;
+  height: 20px;
+  font-family: arial;
+  font-weight: lighter;
+  color: rgb(252,210,47);
+  text-align: center;
+  text-decoration-line: underline;
+}
+.rs-top h4 {
+  width: 4px;
+  height: 20px;
+  color: black;
+}
+.search-box {
+  width: 230px;
+  height: 45px;
+  margin: 2px;
+  padding: 6px;
+  background-color: rgb(68,68,68);
+  border-radius: 10px;
+  display: inline-block;
+}
+.search {
+  width: 170px;
+  height: 30px;
+  display: inline-flex;
+}
+.search input,{
+  height: 30px;
+}
+.search button{
+  height: 30px;
+  width: 35px;
+  border-radius: 5px;
+  border: solid silver 2px;
+  background-color: rgb(35,79,118);
+  color: rgb(192,192,192);
+}
+.middle-header {
+  border-radius: 10px;
+  margin: 3px 54px;
+  height: 45px;
+  width: 875px;
+  background-color: rgb(57,120,173);
+  padding: 1px 20px;
+  justify-content: space-between;
+  display: flex;
+}
+.middle-header h4 {
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  font-family: Arial;
+  color: white;
+  font-weight: lighter;
+  font-size: larger;
+  text-align: center;
+}
+.lower-header {
+  height: 300px;
+  width: 950px;
+  margin: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.left-side {
+  padding: 4px;
+  margin: 15px;
+  height: 190px;
+  width: 165px;
+  text-align: center;
+  color: white;
+  font-size: smaller;
+  font-family: Arial;
+}
+.navigate {
+  height: 180px;
+  width: 155px;
+}
+.navigate h6{
+  display: inline-flex;
+  width: 15px;
+  color: yellow;
+  text-align: center;
+}
+.navigate p{
+  height:20px;
+}
+.Docs {
+  width: 45px;
+  display: inline-flex;
+}
+.avtalks {
+  width: 130px;
+  display: inline-flex;
+}
+.Beg-guide {
+  width: 130px;
+  display: inline-flex;
+}
+.Dev-guide {
+  width: 130px;
+  display: inline-flex;
+}
+.Pep {
+  width: 85px;
+  display: inline-flex;
+}
+.Python {
+  width: 110px;
+  display: inline-flex;
+}
+.FAQ {
+  width: 45px;
+  display: inline-flex;
+}
+
+.right-side{
+  height: 315px;
+  
+}
+.middle-txt{
+  padding: 10px;
+  margin: 20px;
+  width: 585px;
+  height: 290px;
+  text-align: center;
+  display: inline-block;
+}
+.middle-txt p{
+  color: white;
+  font-family: Arial;
+  font-size: smaller;
+}
+.middle-txt h4 {
+  margin: 13px;
+  padding: 1px;
+  color: rgb(252,210,47);
+  font-family: Arial;
+  font-style: italic;
+}
+.middle-txt h5{
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+}
+.footer {
+  height: 235px;
+  background-color: white;
+  justify-content: space-between;
+}
+.top-footer {
+  margin: 10px;
+  height: 220px;
+  width: 930px;
+  font-family: Arial;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.foot-left{
+  padding: 5px;
+  margin: 8px;
+  width: 280px;
+  text-align: center;
+}
+.foot-left p{
+  font-size: 15px;
+}
+.foot-left ul {
+  font-size: 15px;
+}
+.foot-right {
+  margin: 10px;
+  height: 210px;
+  width: 300px;
+  text-align: center;
+}
+.bottom-footer {
+  height: 90px;
+  width: 970px;
+  background-color: rgb(35,79,118);
+  text-align: center;
+  justify-content: center;
+}
+.bottom-nav {
+  margin: 15px;
+  height: 20px;
+  width: 620px;
+  color:rgb(128,178,223);
+  text-align: center;
+  display: inline-flex;
+}
+.bottom-nav h4 {
+  width: 620px;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+}
+.bottom-footer h6 {
+  margin: 5px;
+  height: 20px;
+  width: 110px;
+  color:rgb(128,178,223);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

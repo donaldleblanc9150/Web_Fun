@@ -1,0 +1,60 @@
+/*CSS reset settings here*/
+*{
+    outline: 1px solid pink;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 970px;
+    background-color:rgb(28,51,93);
+    margin: 0px auto;
+    padding: 10px;
+    color: silver;
+}
+.header{
+    height:50px;
+    text-align: left;
+    background-color: rgb(207,47,54);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.header h3{
+    text-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+.middle {
+    font-size: 12px;
+    display: inline-flex;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-info {
+    height:180px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(41,125,139);
+    padding: 10px;
+}
+.left-info {
+    font-size: 12px;
+    margin: 20px;
+}
+.right-info {
+    height: 330px;
+    width: 200;
+    border-radius: 10px;
+    background-color: rgb(14,23,34);
+    padding: 15px;
+    font-size: 10px;
+    margin: 20px;
+}
+.info-list {
+    padding: 5px;
+    margin: 5px;
+}
+.small-list {
+    padding: 5px;
+}

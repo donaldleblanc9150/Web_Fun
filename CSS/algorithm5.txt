@@ -1,0 +1,40 @@
+Algorithm V
+
+1)Return the given array, after setting any negative values to zero.  For example resetNegatives( [1,2,-1, -3]) should return [1,2,0,0].
+
+1   function noNeg(arr) {
+2
+3   for(var i=0; i<arr.length; i++){
+4     if(arr[i]<0){
+5        arr[i]=0
+6     }
+7   }
+8  return arr;
+10 }
+
+
+2)Given an array, move all values forward by one index, dropping the first and leaving a ‘0’ value at the end.  For example moveForward( [1,2,3]) should return [2,3,0].
+
+
+1  function swap(arr){
+2 
+3    var temp=arr[0]
+4   arr[0]=arr[arr.length-1];
+5   arr[arr.length-1]=temp;
+6  
+7   return arr;
+8  }
+
+3)Given an array, return an array with values in a reversed order.  For example, returnReversed([1,2,3]) should return [3,2,1].
+
+1  function returnReversed(arr){
+2
+3   var arr=[1,2,3]
+4   for(
+5  
+6   console.log(rev);
+7 }
+
+
+4)Create a function that changes a given array to list each original element twice, retaining original order.  Have the function return the new array.  For example repeatTwice( [4,”Ulysses”, 42, false] ) should return [4,4, “Ulysses”, “Ulysses”, 42, 42, false, false].
+

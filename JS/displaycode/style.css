@@ -1,0 +1,44 @@
+*{
+    outline: 1px solid pink;
+    margin: 0px;
+    padding: 0px;   
+}
+.container{
+    min-height:400px;
+    width: 792px;
+    border: solid silver 1px;
+    background-color: #D5D2AE;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.header img{
+    width: 150px;
+    height: 75px;
+}
+.header img,
+.header h1{
+    display: inline-block;
+}
+.header {
+    text-align: center;
+}
+
+.blocks img {
+    width: 125px;
+    background-color: white;
+    border: solid #81B4EE 10px;
+}
+.blocks{
+    margin: auto;
+}
+.box {
+    border: black solid 5px;
+    display: inline-block;
+}
+.odd img{
+    height: 105px;
+    width: 105px;
+    background-color: #81B4EE;
+    border:#F36870 20px solid;
+}

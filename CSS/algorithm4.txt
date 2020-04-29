@@ -1,0 +1,78 @@
+Algorithm IV
+
+1) Given an array and a value Y, count and print the number of array values greater than Y.
+
+arr[3,2,5,12] and Y=4
+
+1   function greaterY(arr,Y) {
+2
+3    Var count = 0;
+4
+5     for(var i=0; i<arr.length; i++) {
+6       if(arr[i]>Y) {
+7             count = count++;
+8           }
+9     }
+10   counsel.log(count);
+11
+12 }
+
+output:  5,12
+
+
+2) Given an array, print the max, min and average values for that array.
+
+arr[3,5,12,-8]
+
+1   function MaxMinAvg(arr){
+2
+3   var max=arr[0];
+4   var min=arr[0];
+5   var sum=arr[0];
+6
+7  for(var i=1; i<arr.length; i++){
+8    if(arr[i] > max){
+9    max=arr[i]
+10  }
+11   if(arr[i]<min) {
+12    min=arr[i]
+13   }
+14  sum=sum+arr[i];
+15  }
+16  var avg=sum/arr.length;
+17  var arrnew=[max,min,avg];
+18  console.log(arrnew);
+19  }
+
+output: (12,-8,3)
+
+3)Given an array of numbers, create a function that returns a new array where negative values were replaced with the string ‘Dojo’.   For example, replaceNegatives( [1,2,-3,-5,5]) should return [1,2, "Dojo", "Dojo", 5].
+
+1   function noNeg(arr){
+2
+3   for(var i=0; i<arr.length; i++){
+4       if(arr[i]<0){
+5           arr[i]=0
+6         }
+7       }
+8  return arr;
+9 }
+
+
+4)Given array, and indices start and end, remove values in that index range, working in-place (hence shortening the array).  For example, removeVals([20,30,40,50,60,70],2,4) should return [20,30,70].
+
+1  function swap(arr){
+2  
+3  var temp=arr[0]
+4  arr[0]=arr[arr.length-1];
+5  arr[arr.length-1]=temp;
+6  return arr;
+7}
+
+
+
+
+
+
+
+
